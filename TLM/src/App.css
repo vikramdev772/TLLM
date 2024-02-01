@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  padding: 20px;
+  gap: 20px;
+}
+/* .block:hover{
+  box-shadow: 0 0 10px rgb(239, 94, 224), 0 0 25px rgb(225, 74, 225),
+      0 0 50px rgb(197, 58, 188);
+} */
+.left {
+  border: 2px solid rgb(61, 45, 234);
+  border-radius: 5px;
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.left:hover{
+  box-shadow: 0 0 10px rgb(35, 116, 236) , 0 0 25px rgb(77, 143, 228),0 0 25px rgb(32, 113, 218) ;
+}
+.right {
+  border: 1px solid greenyellow;
+  width: 70%;
+  padding-left: 25px;
+  padding-top: 90px;
+  padding-bottom: 25px;
+ 
+  
+
+}
+.right:hover{
+  box-shadow: 0 0 10px rgb(76, 228, 76), 0 0 25px rgb(59, 236, 59),
+      0 0 50px rgb(73, 223, 73);
+}
+
